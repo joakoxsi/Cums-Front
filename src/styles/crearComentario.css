@@ -1,0 +1,61 @@
+/* En crearComentario.css */
+.crear-comentario-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.crear-comentario-title {
+  text-align: center;
+}
+
+.crear-comentario-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.latex-disclaimer-crear-foro {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.latex-example {
+  margin-bottom: 20px;
+}
+
+.guardar-comentario-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.guardar-comentario-btn:hover {
+  background-color: #0056b3;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.latex-disclaimer-crear-foro {
+  width: 30%; /* Ajusta según sea necesario */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+/* Resto de estilos permanecen iguales */

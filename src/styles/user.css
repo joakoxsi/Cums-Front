@@ -1,0 +1,76 @@
+#Main-container {
+  max-width: 600px;
+  margin: 50px auto; /* Centra el contenedor en la pantalla */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* Agrega estas reglas al archivo user.css */
+.UserInfo-container {
+  max-width: 600px;
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center; /* Centra el texto horizontalmente */
+  margin-bottom: 20px; /* Agrega espacio entre los contenedores */
+}
+
+.Foros-container {
+  max-width: 600px;
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center; /* Centra el texto horizontalmente */
+}

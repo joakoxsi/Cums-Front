@@ -1,0 +1,46 @@
+:root{
+    --primario: #FFC107;
+    --fondo: rgb(225,225,225)
+    
+}
+
+
+.Background{
+    
+    background-color: var(--fondo);
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.bloque {
+    display: flex; /* Hacer que los elementos hijos se alineen en una fila */
+    justify-content: space-between; /* Espaciado entre los elementos */
+    margin: auto;
+  
+}
+
+.fondo {
+    height: 91vh;
+    /* Fondo azul para elementos con clase 'img' */
+    flex: 1; /* Expansión para ocupar espacio disponible en la fila */
+
+}
+
+.inicio {
+    height: 91vh;
+     /* Fondo rojo para elementos con clase 'inicio' */
+    flex: 1; /* Expansión para ocupar espacio disponible en la fila */
+    
+}
+.imagen{
+    margin-top: 30%;
+    margin-left: 40%;
+}
+
+
+.forma{
+margin-left:20%;
+margin-top: 10%;
+
+}

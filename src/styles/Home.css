@@ -1,0 +1,33 @@
+/* En home.css */
+#Main-container {
+  width: 100%;
+  max-width: 800px; /* Ajusta según tus preferencias */
+  margin: 0 auto; /* Centra el contenedor en la pantalla */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* En home.css */
+.discreet-message {
+  font-size: 14px;
+  color: #777; /* Un tono de gris para que sea menos llamativo */
+  margin-top: 10px;
+}
+
+.btn-block {
+  width: 40%; /* Reducido el ancho del botón */
+  margin-top: 10px;
+}

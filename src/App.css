@@ -1,0 +1,71 @@
+body {
+  min-height: 75rem;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Estilo para el contenido principal */
+.main-content {
+  margin-top: 80px; /* Ajusta el margen superior para evitar la superposición con la barra de navegación */
+  height: calc(
+    100vh - 80px
+  ); /* Calcula la altura de la pantalla y resta la altura de la barra de navegación */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px; /* Ajusta el ancho máximo que desees */
+  width: 90%; /* Puedes ajustar este valor según tus preferencias */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
